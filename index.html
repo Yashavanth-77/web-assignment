@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Technology Assignment 1</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Web Technology Assignment </h1>
+    </div>
+  </div>
+  <div class="profiles-section">
+    <h2>Students Profiles</h2>
+    <div class="episodes-grid">
+      <div class="episode" onclick="showProfile(0)">
+        <div class="episode-info">
+          <h3>Yashwanth</h3>
+          <span class="duration"></span>
+        </div>
+      </div>
+      <div class="episode" onclick="showProfile(1)">
+        <div class="episode-info">
+          <h3>Yashas H J</h3>
+          <span class="duration"></span>
+        </div>
+      </div>
+      <div class="episode" onclick="showProfile(2)">
+        <div class="episode-info">
+          <h3>Pavan S</h3>
+          <span class="duration"></span>
+        </div>
+      </div>
+      <div class="episode" onclick="showProfile(3)">
+        <div class="episode-info">
+          <h3>Tejaswi P Achar</h3>
+          <span class="duration"></span>
+        </div>
+      </div>
+      <div class="episode" onclick="showProfile(4)">
+        <div class="episode-info">
+          <h3>Sudarshan Rudrapure</h3>
+          <span class="duration"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="assignmentModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeAssignmentModal()">&times;</span>
+      <div class="modal-body assignment-info">
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
